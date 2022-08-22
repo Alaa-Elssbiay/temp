@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(233, 227, 227);
+}
+.container{
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+
+}
+.itemSearch{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+::placeholder{
+  color: rgb(167, 37, 37);
+  font-size: 20px;
+}
+input, .btnInfo{
+  width: 50%;
+  padding: 15px;
+  background-color: #ddd;
+  margin: 10px;
+  transition:all 2s;
+  font-size: 20px;
+
+}
+input:hover, .btnInfo:hover,.btn:hover
+{
+  background-color: #aaa;
+  color: #fff;
+  letter-spacing: 2px;
+
+}
+.btnInfo:hover{
+  cursor: pointer;
+}
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+  padding: 10px;
+
+}
+.info{
+  padding: 20px;
+}
+h3,h4,p{
+  padding: 5px;
+  margin: 5px;
+  font-size: bold;
+}
+table{
+  width: 100%;
+}
+table,th,tr,td
+{
+  border: 1px solid #333;
+  text-align: center;
+  border-collapse: collapse;
+}
+th{
+  padding: 20px;
+}
+.searchH1{
+
+  float: left;
+}
+.btn{
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ddd;
+  margin: 10px;
+  transition:all 2s;
+
+  }
+
